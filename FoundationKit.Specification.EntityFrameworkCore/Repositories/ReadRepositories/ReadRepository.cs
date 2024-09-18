@@ -1,5 +1,5 @@
 ﻿namespace FoundationKit.Specification.EntityFrameworkCore.Repositories.ReadRepositories;
 
-internal class ReadRepository
+internal class ReadRepository : IReadRepository
 {
 }
