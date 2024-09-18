@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoundationKit.Client", "FoundationKit.Client\FoundationKit.Client.csproj", "{6912FDC2-B2DF-4803-B424-3DF2A0721CEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoundationKit.Client", "FoundationKit.Client\FoundationKit.Client.csproj", "{6912FDC2-B2DF-4803-B424-3DF2A0721CEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoundationKit.Specification.EntityFrameworkCore", "FoundationKit.Specification.EntityFrameworkCore\FoundationKit.Specification.EntityFrameworkCore.csproj", "{F5D8ADFA-7DB6-4ACF-B029-0B7AD7F0E3D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoundationKit.Specification.EntityFrameworkCore", "FoundationKit.Specification.EntityFrameworkCore\FoundationKit.Specification.EntityFrameworkCore.csproj", "{F5D8ADFA-7DB6-4ACF-B029-0B7AD7F0E3D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoundationKit.Abstraction.Core", "FoundationKit.Abstraction.Core\FoundationKit.Abstraction.Core.csproj", "{75C5C554-A721-4AD5-89EB-DB86FA3C3566}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoundationKit.Abstraction.Core", "FoundationKit.Abstraction.Core\FoundationKit.Abstraction.Core.csproj", "{75C5C554-A721-4AD5-89EB-DB86FA3C3566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specification.Core", "Specification.Core\Specification.Core.csproj", "{4A6CB1BB-CD3A-4716-9A70-A2C06D96AB66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility.Core", "Utility.Core\Utility.Core.csproj", "{09063CD4-03D8-45C2-84D1-4ABF6B9963F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{75C5C554-A721-4AD5-89EB-DB86FA3C3566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75C5C554-A721-4AD5-89EB-DB86FA3C3566}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75C5C554-A721-4AD5-89EB-DB86FA3C3566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6CB1BB-CD3A-4716-9A70-A2C06D96AB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6CB1BB-CD3A-4716-9A70-A2C06D96AB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6CB1BB-CD3A-4716-9A70-A2C06D96AB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6CB1BB-CD3A-4716-9A70-A2C06D96AB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09063CD4-03D8-45C2-84D1-4ABF6B9963F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09063CD4-03D8-45C2-84D1-4ABF6B9963F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09063CD4-03D8-45C2-84D1-4ABF6B9963F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09063CD4-03D8-45C2-84D1-4ABF6B9963F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

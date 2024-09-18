@@ -1,6 +1,6 @@
-﻿namespace FoundationKit.Specification.EntityFrameworkCore.Repositories.ReadRepositories
+﻿namespace FoundationKit.Specification.EntityFrameworkCore.Repositories.ReadRepositories;
+
+public interface IReadRepository
 {
-    internal class IReadRepository
-    {
-    }
+
 }
